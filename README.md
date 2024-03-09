@@ -37,21 +37,14 @@ Other |	✗ |	✗ |	✗ |	✗ | 	✗
 
 Follow https://switch.homebrew.guide for an easy to follow noob guide for going from stock 1.0.0 - 3.0.0 and 4.0.1 - 4.1.0 with PegaScape. Otherwise, if you want to jump in...
 
-### Public DNS IP Addresses
-
-We provide a public DNS IP for each common browser entrypoint present on the Switch:
-
-**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: 163.172.181.170
-
-**Wifi Authentication Prompt**:	51.15.245.41
-
-Note that these public DNS servers run the 90DNS configuration. This means that the connection test will pass (for the Webapplet server) and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
-
-You can install Fake News with <a href="https://github.com/noahc3/fakenews-injector/releases/latest">Fake News Injector</a>
-
 ### Self Hosting
 
-You can also self-host PegaScape yourself:
+##Dependencies
+* NodeJS v9.11.2
+* NPM v5.6.0
+* Python v2.7
+* make
+* build-essential
 
 1. Install NodeJS v9.11.2 and NPM v5.6.0 specifically. Newer versions will not work.
 2. Install Python v2.7. Only Python versions v2.5.0 and newer and older than v3.0.0 work.
