@@ -39,13 +39,14 @@ Follow https://switch.homebrew.guide for an easy to follow noob guide for going 
 
 ### Self Hosting
 
-##Dependencies
+#### Dependencies
 * NodeJS v9.11.2
 * NPM v5.6.0
 * Python v2.7
 * make
 * build-essential
 
+#### Directions
 1. Install NodeJS v9.11.2 and NPM v5.6.0 specifically. Newer versions will not work.
 2. Install Python v2.7. Only Python versions v2.5.0 and newer and older than v3.0.0 work.
 3. Install make.
