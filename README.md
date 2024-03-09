@@ -47,7 +47,7 @@ Follow https://switch.homebrew.guide for an easy to follow noob guide for going 
 * build-essential
 
 #### Directions
-1. Install NodeJS v9.11.2 and NPM v5.6.0 specifically. Newer versions will not work.
+1. Install NodeJS v9.11.2 and NPM v5.6.0 specifically. Newer versions will not work. This can be done with NVM.
 2. Install Python v2.7. Only Python versions v2.5.0 and newer and older than v3.0.0 work.
 3. Install make.
 4. Install the build-essential package, which contains the g++ compiler.
@@ -60,7 +60,7 @@ Follow https://switch.homebrew.guide for an easy to follow noob guide for going 
     * `--host <dns_server_ip_override` if the detected IP address for the DNS server is not preferred.
     * `--disable-dns` if you want to disable the internal DNS server and use something else (dnsmasq, bind, etc).
     * Root privileges are usually required on Linux to bind to port 80 and 53.
-    * You may need to specify the external IP address and host  with `--ip` and `--host` if you see an error about failing to bind to localhost.
+    * It may be required to specify the external IP address and host  with `--ip` and `--host` if you see an error about failing to bind to localhost.
 
 ## Changes from PegaSwitch
 
